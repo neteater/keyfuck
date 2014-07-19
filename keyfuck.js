@@ -51,8 +51,8 @@ function lets(str) {
 									  	if (dig===max_val) car[dig]=car[dig]+car[max_val-1]+car[0];
 									  	break;
 									  		case keys[1]:
-									  		dig===0 ? car[dig]=car[max_val]-car[1] : car[dig]=car[dig]+car[dig-1]-car[dig+1];
-									  		if (dig===max_val) car[dig]=car[dig]+car[max_val-1]-car[0];
+									  		dig===0 ? car[dig]=car[max_val]-car[1] : car[dig]=car[dig]-car[dig-1]-car[dig+1];
+									  		if (dig===max_val) car[dig]=car[dig]-car[max_val-1]-car[0];
 									  		break;
 									  }
 									  x+=2;
