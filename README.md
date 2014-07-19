@@ -1,6 +1,6 @@
 keyfuck
 =======
 
-dialect of brainfuck without cycles
-But with primary arithmetic
-My project for fun
+dialect of brainfuck without cycles\n
+But with simple arithmetic\n
+My project for fun\n
