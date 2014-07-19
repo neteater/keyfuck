@@ -5,7 +5,7 @@
 <title>KeyFuck</title>
 </head>
 <body>
-	<div id='wrap'>
+	<div id='wrap' style="float:left; width:600px;">
 
 <h2>KeyFuck</h2>
 <br>
@@ -15,7 +15,15 @@ Input:<br>
 <br>
 Output:<br>
 <div id='out' style="width:425px; height:200px; border:1px solid rgb(163, 161, 161)"></div>
-</div>
+</div><div id='note'><button id='a' onclick='show();'>Show hint</button></div>
 <script src='keyfuck.js'></script>
+<script type='text/javascript'>
+function show() {
+	document.getElementById('note').innerHTML="<img src='img/note.jpg'><button id='a' onclick='hide();'>Hide hint</button>";
+}
+function hide() {
+	document.getElementById('note').innerHTML="<button id='a' onclick='show();'>Show hint</button>";
+}
+</script>
 </body>
 </html>
